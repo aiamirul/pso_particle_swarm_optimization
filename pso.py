@@ -125,7 +125,7 @@ class Particle:
 
 class PSO:
 
-    def __init__(self, fitness, P=30, n=2, w=0.72984, c1=2.8, c2=2.05, Tmax=300, vmax=1, X0=None, bound=None,
+    def __init__(self, fitness, P=30, n=2, w=0.72984, c1=2.8, c2=2.05, Tmax=3, vmax=1, X0=None, bound=None,
                 update_w=False, update_c1=False, update_c2=False, update_vmax=False, plot=False, min=True, verbose=False):
 
         '''
@@ -196,7 +196,7 @@ class PSO:
         self.verbose = verbose
         
     def optimum(self, best, particle_x):
-
+ 
         '''
 
         PARAMETERS:
